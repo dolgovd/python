@@ -4,6 +4,7 @@ userWins = 0
 computerWins = 0
 options =  ['rock', 'paper', 'scissors']
 
+#Ask user to choose
 while True:
     userInput = input('Please select (Rock, Paper, Scissors) or enter Q to quit: ').lower()
     if userInput == 'q':
@@ -17,6 +18,7 @@ while True:
     computerPick = options[randomNumber]
     print('Computer picked: ', computerPick + '.')
 
+    #Validate chooses
     if userInput == 'rock' and computerPick == 'scissors':
         print('You won!')
         userWins += 1
@@ -42,6 +44,6 @@ while True:
         print('You lost!')
         computerWins += 1
     
-print('You won', userWins, 'times')
+print('\nYou won', userWins, 'times')
 print('Computer won', computerWins, 'times')
 print('See you later!')
