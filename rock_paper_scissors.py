@@ -19,6 +19,7 @@ while True:
     print('Computer picked: ', computerPick + '.')
 
     #Validate chooses
+    #User wins
     if userInput == 'rock' and computerPick == 'scissors':
         print('You won!')
         userWins += 1
@@ -30,7 +31,7 @@ while True:
     elif userInput == 'scissors' and computerPick == 'paper':
         print('You won!')
         userWins += 1
-    
+    #No one wins
     elif userInput == 'rock' and computerPick == 'rock':
         print('No one wins')
     
@@ -39,7 +40,7 @@ while True:
     
     elif userInput == 'scissors' and computerPick == 'scissors':
         print('No one wins')
-
+    #Computer wins
     else:
         print('You lost!')
         computerWins += 1
