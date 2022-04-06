@@ -14,7 +14,7 @@ def writeKey():
 def loadKey():
     file = open('key.key', 'rb')
     key = file.read()
-    file.close
+    file.close()
     return key
 
 masterPassword = input('Please enter master password: ')
