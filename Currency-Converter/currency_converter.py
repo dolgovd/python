@@ -47,7 +47,7 @@ def convert(currency_from, currency_to, amount):
         return
 
     try:
-        amount =float(amount)
+        amount = float(amount)
     except:
         print('Invalid amount')
         return
