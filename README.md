@@ -8,3 +8,4 @@ Small python projects for self-education:
 
 3. **Shortest Path Finder** allows to find the shortest way in a maze and show it graphically. 'Curses' library is used to render output. 
 4. **NBA Stats** allows to parse JSON file and shows the required data sets.
+5. **Currency Converter** allows to convert a corrency to another one using exchange rate obtained from [this website](free.currencyconverterapi.com) via API calls.
