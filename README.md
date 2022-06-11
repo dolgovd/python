@@ -9,3 +9,4 @@ Repositiry includes python projects  that were built in scope of for self-educat
 3. **Shortest Path Finder** allows to find the shortest way in a maze and show it graphically. 'Curses' library is used to render output. 
 4. **NBA Stats** allows to parse JSON file and shows the required data sets.
 5. **Currency Converter** allows to convert a corrency to another one using exchange rate obtained from [this website](free.currencyconverterapi.com) via API calls.
+6. **PDF to MP3 Converter** allows to convert a pdf file to MP3 (cyrillic is supported as well).
