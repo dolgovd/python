@@ -2,9 +2,6 @@
 # pdfplumber, gTTS, art libraries are used
 # Link - https://github.com/jsvine/pdfplumber
 
-#from email.mime import audio
-#from msilib.schema import File
-#from unicodedata import name
 from gtts import gTTS
 from art import tprint
 import pdfplumber
@@ -26,7 +23,7 @@ def pdf_to_mp3(file_path = 'Test.pdf', language = 'en'):
             # merge all pages together
             text = ''.join(pages)
 
-            # remove EOL symbols. It is needed for getting the target text as one line and eliminate pauses in MP3 file
+            # remove EOL symbols. It is needed for getting the target text as one line and eliminating pauses in MP3 file
             text = text.replace('\n', '')
 
             # generate output MP3 file with gTTS library
