@@ -7,7 +7,7 @@ from art import tprint
 import pdfplumber
 from pathlib import Path
 
-# Function accepts 2 parameters: path to a PDF file and and language of audio
+# Function accepts 2 parameters: path to a PDF file and used language
 def pdf_to_mp3(file_path = 'Test.pdf', language = 'en'):
     
     # Validate is file esxist and it is a PDF
