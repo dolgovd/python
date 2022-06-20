@@ -1,4 +1,4 @@
-# Program will allow to get a PDF file as input and convert it to MP3
+# Program allows to get a PDF file as input and convert it to MP3
 # pdfplumber, gTTS, art libraries are used
 # Link - https://github.com/jsvine/pdfplumber
 
