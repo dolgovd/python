@@ -14,4 +14,4 @@ Folded includes python projects created in scope of self-learning
 
 # SQL
 Folder includes SQL projects created in scope of self-learning
-1. ***Data Selection* describes basic commands for work with tables and data extraction
+1. **Data Selection** describes basic commands for work with tables and data extraction
