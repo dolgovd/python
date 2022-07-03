@@ -1,6 +1,6 @@
 # Python
 
-Folfed includes python projects created in scope of self-learning
+Folded includes python projects created in scope of self-learning
 1. **Rock, Paper, Scissors** is a text game where user has to make a choose and then it is compared with a computer's choose
 2. **Password manager** allows to store logins/passwords in a text file. *Cryptography* library is used for protecting informaiton in text file and master password is used for getting access.
 
@@ -14,3 +14,4 @@ Folfed includes python projects created in scope of self-learning
 
 # SQL
 Folder includes SQL projects created in scope of self-learning
+1. ***Data Selection* describes basic commands for work with tables and data extraction
