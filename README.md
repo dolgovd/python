@@ -11,6 +11,7 @@ Folded includes python projects created in scope of self-learning
 5. **Currency Converter** allows to convert a corrency to another one using exchange rate obtained from [this website](free.currencyconverterapi.com) via API calls.
 6. **PDF to MP3 Converter** allows to convert a pdf file to MP3 (cyrillic is supported as well).
 7. **Scrap Bundestag** allows to get information about each member of Bundestag amd links to their social networks. Project goal is to get familiar with parcing though libraries *requests*, *beautifulsoup4*, *lxml*. [Deutscher Bundestag](https://www.bundestag.de/en/members) website is used as a source of information.
+8. **Code to Image** allows to convert a file with code into a picture. *pytoimage*, *pathlib* libraries are used.
 
 # SQL
 Folder includes SQL projects created in scope of self-learning
