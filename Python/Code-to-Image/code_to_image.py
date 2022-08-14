@@ -1,6 +1,7 @@
 # Program allows to convert a file wtih code into a png file
 # pytoimage library is used
 
+import os
 from pytoimage import PyImage
 from pathlib import Path
 
@@ -26,7 +27,7 @@ def pycode_to_img(file_path = 'main.py'):
 
     #Generate image
     code.generate_image()
-    img_name = f'{file_path.split(".")[0]}.png'
+    img_name = f'{os.path.splitext(file_path)[0]}.png'
     code.save_image(img_name)
     return f'{img_name} saved successfully'
 
