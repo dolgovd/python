@@ -13,12 +13,12 @@ def pycode_to_img(file_path = 'main.py'):
         return 'Sorry, file is not found'
 
     #Creare an object of PyImage class
-    code = PyImage(file_path, background=(255, 255, 255))
+    code = PyImage(file_path, background=(0, 0, 0))
 
     #Create a dictionary with palette
     palette = {
-        'line': (255, 0, 255),
-        'normal': (0, 0, 0)
+        'line': (105, 105, 105),
+        'normal': (255, 255, 255)
     }
 
     #Apply settings
