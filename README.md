@@ -12,7 +12,7 @@ Folded includes python projects created in scope of self-learning
 6. **PDF to MP3 Converter** allows to convert a pdf file to MP3 (cyrillic is supported as well).
 7. **Scrap Bundestag** allows to get information about each member of Bundestag amd links to their social networks. Project goal is to get familiar with parcing though libraries *requests*, *beautifulsoup4*, *lxml*. [Deutscher Bundestag](https://www.bundestag.de/en/members) website is used as a source of information.
 8. **Code to Image** allows to convert a file with code into a picture. *pytoimage*, *pathlib* libraries are used.
-9. ** Fina a Person** allows to find users accounts in popular social networks. Existing project *blackbird* is used for running the service
+9. **Fina a Person** allows to find users accounts in popular social networks. Existing project *blackbird* is used for running the service
 
 # SQL
 Folder includes SQL projects created in scope of self-learning
