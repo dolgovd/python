@@ -2,7 +2,7 @@
 # OSINT is used for gathering data
 # Existing project will be used: need to clone repository https://github.com/p1ngul1n0/blackbird
 
-# Create virtual end and activate it
+# Create virtual env and activate it
 # python3 -m venv venv
 # source venv/bin/activate 
 
