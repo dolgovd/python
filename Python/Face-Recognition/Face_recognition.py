@@ -14,7 +14,7 @@ def face_capture():
 
     # Capture video stream and select source (device id or name of video file)
     # 0 - defaul camer
-    camera = cv2.VideoCapture('video.mp4')
+    camera = cv2.VideoCapture(0)
 
     while True:
         # Catch the next frame
