@@ -13,6 +13,7 @@ def face_capture():
     clf = cv2.CascadeClassifier(cascase_path)
 
     # Capture video stream and select source (device id or name of video file)
+    # 0 - defaul camer
     camera = cv2.VideoCapture('video.mp4')
 
     while True:
