@@ -1,8 +1,6 @@
 # Program allows to download images from the Internet based on provided parameters as resolution, type of licence, etc.
 # icrawler library is used for the project
 
-from ast import main
-from logging import root
 from icrawler.builtin import GoogleImageCrawler
 
 def google_image_downloader():
