@@ -1,15 +1,23 @@
-# Program allows to download images from the Internet based on provided parameters as resolution, type of licence, etc.
-# icrawler library is used for the project
+from icrawler.builtin import BaiduImageCrawler, BingImageCrawler, GoogleImageCrawler
 
-from icrawler.builtin import GoogleImageCrawler
-
-def google_image_downloader():
-    # create an object of the class
-    crawler =  GoogleImageCrawler(storage={'root_dir': './img'})
-    crawler.crawl(keyword='mr.robot', max_num=5)
-
+def image_downloader():
+    # bing crawler
+    filters = dict(
+        type = 'photo', # photo, face, clipart, etc.
+        color = 'blackandwhite',
+        size = 'large', # large, icon, 1024x1024
+        # license = 'noncommercial',
+        # date = 'pastweek' # date when image was published
+    )
+    bing_crawler = BingImageCrawler(downloader_threads=4, storage={'root_dir': './img'})
+    bing_crawler.crawl(
+        keyword='mr.robot',
+        filters=filters,
+        offset=0,
+        max_num=10)
+    
 def main():
-    google_image_downloader()
+    image_downloader()
 
 if __name__ == '__main__':
     main()
