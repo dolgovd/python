@@ -14,7 +14,7 @@ Folded includes python projects created in scope of self-learning
 8. **Code to Image** allows to convert a file with code into a picture. *pytoimage*, *pathlib* libraries are used.
 9. **Fina a Person** allows to find users accounts in popular social networks. Existing project *blackbird* is used for running the service
 10. **Face Recognition** allows to detect faces in video stream. Connected devices or video file can be used as input
-11. **Files Downloader** allows to download files from the Interner in automated manner based on selected parameters as resolution, licence type, etc.
+11. **Files Downloader** allows to download images from the Interner in automated manner based on selected parameters as resolution, license type, etc.
 
 # SQL
 Folder includes SQL projects created in scope of self-learning
