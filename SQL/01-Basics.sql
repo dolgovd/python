@@ -25,6 +25,7 @@ author: Булгаков М.А.
 price: 670.99
 amount: 3
 */
+
 INSERT INTO book(title, author, price, amount)
 VALUES ('Мастер и Маргарита', 'Булгаков М.А.', 670.99, 3)
 

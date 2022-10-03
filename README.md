@@ -16,6 +16,7 @@ Folded includes python projects created in scope of self-learning
 10. **Face Recognition** allows to detect faces in video stream. Connected devices or video file can be used as input
 11. **Image Downloader** allows to download images from the Interner in automated manner based on selected parameters as resolution, license type, etc.
 12. **YouTube Downloader** allows to download video from YouTube in automated mananger, *pytube* library is used
+13. **Chat Translator** allows to translate messages from any language available in Google Translate
 
 # SQL
 Folder includes SQL projects created in scope of self-learning
