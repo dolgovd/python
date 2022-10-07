@@ -1,4 +1,4 @@
-# Program allows to translate messages automatically
+# Program allows to translate messages from any language available in Google Translate
 # googletrans 3.1.0 library is used
 
 from googletrans import Translator
@@ -12,7 +12,7 @@ def text_translator(text='Hello', src='en', dest='ru'):
         return ex
 
 def main():
-    print(text_translator(text='Hello', src='en', dest='fr'))
+    print(text_translator(text='Hello', src='en', dest='ru'))
 
 if __name__ == '__main__':
     main()
