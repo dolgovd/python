@@ -6,7 +6,6 @@ import os.path
 from pathlib import Path
 from art import tprint
 from pytube import YouTube
-import ffmpeg
 
 def youtube_downloader():    
     # Ask user to provide link to the target video
