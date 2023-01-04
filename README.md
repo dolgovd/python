@@ -1,3 +1,7 @@
+# Introduction
+
+The repository includes projects that were built during self-education process.
+
 # Python
 
 Folded includes python projects created in scope of self-learning
