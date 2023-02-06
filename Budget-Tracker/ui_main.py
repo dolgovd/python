@@ -18,7 +18,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QApplication, QFrame, QHBoxLayout, QHeaderView,
     QLabel, QMainWindow, QPushButton, QSizePolicy,
     QTableView, QVBoxLayout, QWidget)
-import resources_rc
+import resources
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
