@@ -21,3 +21,4 @@ Folded includes python projects created in scope of self-learning
 11. **Image Downloader** allows to download images from the Interner in automated manner based on selected parameters as resolution, license type, etc.
 12. **YouTube Downloader** allows to download video from YouTube in automated mananger, *pytube* library is used
 13. **Chat Translator** allows to translate messages from any language available in Google Translate
+14. **Budget Tracker** is an application with UI for income / expense tracking. PySide6 framework is used in the project.
