@@ -61,7 +61,7 @@ def create_item(item_id: int, item: Item):
     
 # PUT method
 @app.put("/update-item/{item_id}")
-def update_item(item_id: int, item: Item):
+def update_item(item_id: int, item: UpdateItem):
     if item_id not in inventory:
         return {"Error": "Item ID does not exist"}
 
