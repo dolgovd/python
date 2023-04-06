@@ -23,4 +23,5 @@ Folded includes python projects created in scope of self-learning:
 13. **Chat Translator** allows to translate messages from any language available in Google Translate.
 14. **Budget Tracker** is an application with UI for income / expense tracking. PySide6 framework is used in the project.
 15. **Diagrams** Diagrams lets you draw the cloud system architecture in Python code.
-16. **Fast API** allows to build a comprehensive API for a project
+16. **Fast API** allows to build a comprehensive API for a project.
+17. **Site Scrapper** allows to parse web sites and store output in a txt file
