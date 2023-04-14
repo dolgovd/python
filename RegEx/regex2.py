@@ -27,6 +27,7 @@ a\\b\tc
 
 # email: name@gmail.com
 def validate_email(email):
-    return re.match(r'^.+@\w+\.[a-z]{2,6}$', email, re.IGNORECASE)
+    return bool(re.match(r'^.+@\w+\.[a-z]{2,6}$', email, re.IGNORECASE))
 
 print(validate_email('name@gmail.com'))
+print(validate_email('name@gmail.infonet'))
