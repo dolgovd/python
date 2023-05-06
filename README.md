@@ -27,3 +27,4 @@ Folded includes python projects created in scope of self-learning:
 17. **Site Scrapper** allows to parse web sites and store output in a txt file.
 18. **RegEx** is an example of work for regular expressions. Library *re* is used.
 19. **SQL DB** is an example of work with SQL DB. Library *sqlite3* us used.
+20. **Data Analysis** is an example of work with Jupyter for data analysis and transformation.
