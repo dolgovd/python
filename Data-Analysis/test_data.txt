@@ -1,3 +1,6 @@
-1,Warsaw,1.86
-2,Cracow,0.8
-3,Wroclaw,0.67
+1;Warsaw;1.86
+2;Cracow;0.8
+;;
+4;Wroclaw;0.67
+5;Gdansk;
+6;Sopot;
