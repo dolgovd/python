@@ -8,7 +8,7 @@ person_one.print_info()
 # Usage of 'getter'
 print(person_one.get_company())
 
-# # Usage of 'setter'
+# Usage of 'setter'
 person_one.set_company('Luxoft')
 print(person_one.get_company())
 

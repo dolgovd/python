@@ -15,12 +15,14 @@ class Employee:
     def get_company(self):
         return self.__company
     
+
     # Setter
     def set_company(self, value):
         if value == '':
             self.__company = 'BestSoft'
         else:
             self.__company = value
+
 
     # Decorator
     @property
